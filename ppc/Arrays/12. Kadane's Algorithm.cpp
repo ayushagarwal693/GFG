@@ -1,3 +1,7 @@
+/*
+Kadane's Algorithm
+==================
+
 Given an array arr of N integers. Find the contiguous sub-array with maximum sum.
 
  
@@ -38,10 +42,9 @@ Expected Auxiliary Space: O(1)
 Constraints:
 1 ≤ N ≤ 106
 -107 ≤ A[i] <= 107
-  
-  
- /*==============================================================================================*/
-  
+
+*/
+ 
   
   int maxSubarraySum(int arr[], int n){
         
