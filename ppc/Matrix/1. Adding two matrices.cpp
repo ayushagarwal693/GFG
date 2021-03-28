@@ -1,3 +1,7 @@
+/*
+Adding two matrices
+===================
+
 Addition is one of the easiest operation to carry out. The same hold true for matrices. Two matrices can be added only if they have the same dimensions. The elements at similar positions get added.
 
 Given two matrices A and B having (n1 x m1) and (n2 x m2) dimensions respectively. Add A and B. 
@@ -48,9 +52,11 @@ Expected Auxiliary Space: O(n1 * m1) for the resultant matrix only.
 Constraints:
 1 <= n1, m1, n2, m2 <= 30
 0 <= Ai, Bi <= 100
+
+*/
   
   
-  /*===========================================================================================================*/
+/*=============================================================================================================*/
   
   
   class Solution
