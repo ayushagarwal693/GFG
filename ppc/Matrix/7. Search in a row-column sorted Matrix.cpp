@@ -1,3 +1,7 @@
+/*
+Search in a row-column sorted Matrix
+====================================
+
 Given a matrix of size n x m, where every row and column is sorted in increasing order, and a number x. Find whether element x is present in the matrix or not.
 
 Example 1:
@@ -29,11 +33,10 @@ Constraints:
 1 <= N, M <= 1000
 1 <= mat[][] <= 105
 1 <= X <= 1000
+
+*/
   
-  
-  /*=================================================================================================*/
-  
-  
+
   class Solution{
   public:
     bool search(vector<vector<int> > matrix, int n, int m, int x) 
