@@ -1,3 +1,7 @@
+/*
+Rotate Array
+============
+
 Given an unsorted array arr[] of size N, rotate it by D elements in the counter-clockwise direction. 
 
  
@@ -35,9 +39,8 @@ Constraints:
 1 <= N <= 107
 1 <= D <= N
 0 <= arr[i] <= 105
-  
-  /*------------------------------------------------------*/
-  
+
+*/ 
   
   void reverseArray(int arr[], int low, int high)
     {
