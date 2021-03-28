@@ -1,3 +1,7 @@
+/*
+First Repeating Element
+=======================
+
 Given an array arr[] of size n, find the first repeating element. The element should occurs more than once and the index of its first occurrence should be the smallest.
 
  
@@ -38,11 +42,10 @@ Expected Auxilliary Space: O(n)
 Constraints:
 1 <= n <= 106
 0 <= Ai<= 106
+
+*/
   
-  /*==========================================================================*/
-  
-  
-      int firstRepeated(int arr[], int n) 
+    int firstRepeated(int arr[], int n) 
     {
         const int N = 1e6 + 2;
         int idx[N], minIdx = INT_MAX;
