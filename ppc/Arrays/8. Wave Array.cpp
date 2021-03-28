@@ -1,3 +1,7 @@
+/*
+Wave Array
+==========
+
 Given a sorted array arr[] of distinct integers. Sort the array into a wave-like array and return it. In other words, arrange the elements into a sequence such that a1 >= a2 <= a3 >= a4 <= a5..... (considering the increasing lexicographical order).
 
 Example 1:
@@ -30,7 +34,7 @@ Constraints:
 1 ≤ n ≤ 106
 0 ≤ A[i] ≤107
 
-/*=====================================================================================*/
+*/
 
 
 void convertToWave(int *arr, int n)
