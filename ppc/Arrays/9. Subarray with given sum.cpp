@@ -1,3 +1,7 @@
+/*
+Subarray with given sum
+=======================
+
 Given an unsorted array A of size N that contains only non-negative integers, find a continuous sub-array which adds to a given number S.
 
  
@@ -37,8 +41,8 @@ Expected Auxiliary Space: O(1)
 Constraints:
 1 <= N <= 105
 1 <= Ai <= 1010
-  
-  /*===============================================================================================*/
+
+*/
   
   
   vector<int> subarraySum(int arr[], int n, int sum)
