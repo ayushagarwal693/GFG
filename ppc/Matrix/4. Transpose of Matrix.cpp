@@ -1,3 +1,7 @@
+/*
+Transpose of Matrix
+===================
+
 Write a program to find the transpose of a square matrix of size N*N. Transpose of a matrix is obtained by changing rows to columns and columns to rows.
 
 Example 1:
@@ -32,9 +36,8 @@ Expected Auxiliary Space: O(1)
 Constraints:
 1 <= N <= 100
 -103 <= mat[i][j] <= 103
-  
-  
-  /*================================================================================================*/
+
+*/
   
   
   class Solution
