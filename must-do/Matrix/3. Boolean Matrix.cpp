@@ -1,3 +1,7 @@
+/*
+Boolean Matrix
+==============
+
 Given a boolean matrix of size RxC where each cell contains either 0 or 1, modify it such that if a matrix cell matrix[i][j] is 1 then all the cells in its ith row and jth column will become 1.
 
 Example 1:
@@ -44,9 +48,11 @@ Expected Auxiliary Space: O(R + C)
 Constraints:
 1 ≤ R, C ≤ 1000
 0 ≤ matrix[i][j] ≤ 1
+
+*/
   
   
-  /*===========================================================================================*/
+  //===================================================================================================
   
   
   void booleanMatrix(vector<vector<int> > &matrix)
