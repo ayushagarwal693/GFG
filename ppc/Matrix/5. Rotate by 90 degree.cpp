@@ -1,3 +1,7 @@
+/*
+Rotate by 90 degree
+===================
+
 Given a square matrix of size N x N. The task is to rotate it by 90 degrees in anti-clockwise direction without using any extra space. 
 
 Example 1:
@@ -32,8 +36,8 @@ Expected Auxiliary Space: O(1)
 Constraints:
 1 ≤ N ≤ 100
 1 <= matrix[][] <= 1000
-  
-  /*==================================================================================================*/
+
+*/
   
   
  Given a square matrix of size N x N. The task is to rotate it by 90 degrees in anti-clockwise direction without using any extra space. 
