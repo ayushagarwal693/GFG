@@ -1,3 +1,7 @@
+/*
+Equilibrium Point
+=================
+
 Given an array A of n positive numbers. The task is to find the first Equilibium Point in the array. 
 Equilibrium Point in an array is a position such that the sum of elements before it is equal to the sum of elements after it.
 
@@ -31,9 +35,8 @@ Expected Auxiliary Space: O(1)
 Constraints:
 1 <= n <= 106
 1 <= A[i] <= 108
-  
-  
- /*=================================================================================================*/
+
+*/
   
   
   int equilibriumPoint(long long a[], int n)
