@@ -48,12 +48,8 @@ Expected Auxiliary Space: O(R + C)
 Constraints:
 1 ≤ R, C ≤ 1000
 0 ≤ matrix[i][j] ≤ 1
-
-*/
-  
-  
-  //===================================================================================================
-  
+ 
+ */
   
   void booleanMatrix(vector<vector<int> > &matrix)
     {
