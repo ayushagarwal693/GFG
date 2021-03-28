@@ -1,3 +1,7 @@
+/*
+Rearrange an array with O(1) extra space
+========================================
+
 Given an array arr[] of size N where every element is in the range from 0 to n-1. Rearrange the given array so that arr[i] becomes arr[arr[i]].
 
  
@@ -39,9 +43,7 @@ Constraints:
 1 <= N <= 107
 0 <= Arr[i] < N
 
-
-/*===================================================================================================*/
-
+*/
 
 void arrange(long long arr[], int n) 
     {
