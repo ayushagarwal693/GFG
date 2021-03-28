@@ -1,3 +1,7 @@
+/*
+Spirally traversing a matrix
+============================
+
 Given a matrix of size R*C. Traverse the matrix in spiral form.
 
 Example 1:
@@ -35,11 +39,9 @@ Expected Auxiliary Space: O(R*C)
 Constraints:
 1 <= R, C <= 100
 0 <= matrixi <= 100
-  
-  
-  /*===================================================================================================*/
-  
-  
+
+*/
+ 
   vector<int> spirallyTraverse(vector<vector<int> > matrix, int r, int c) 
     {
         int top = 0, left = 0, right = c-1, bottom = r-1;
