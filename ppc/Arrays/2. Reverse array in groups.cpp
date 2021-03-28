@@ -1,3 +1,7 @@
+/*
+Reverse array in groups
+=======================
+
 Given an array arr[] of positive integers of size N. Reverse every sub-array group of size K.
 
  
@@ -33,9 +37,8 @@ Expected Auxiliary Space: O(N)
 Constraints:
 1 ≤ N, K ≤ 107
 1 ≤ A[i] ≤ 1018
-  
-  /*-----------------------------------------------------------------------------------*/
-  
+
+*/
   
   
   void reverseInGroups(vector<long long>& arr, int n, int k){
