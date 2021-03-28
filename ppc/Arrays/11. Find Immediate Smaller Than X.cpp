@@ -1,3 +1,7 @@
+/*
+Find Immediate Smaller Than X
+=============================
+
 Given an array arr[] of size N containing positive integers and an integer X, find the element in the array which is smaller than X and closest to it.
 
  
@@ -39,10 +43,9 @@ Expected Auxiliary Space: O(1)
 Constraints:
 1 <= N <= 103
 1 <= arr[i], X <= 104
-  
-  /*===================================================================================================*/
-  
-  
+
+*/
+   
   int immediateSmaller(int arr[], int n, int x)
 {
     int maxVal = INT_MIN;
