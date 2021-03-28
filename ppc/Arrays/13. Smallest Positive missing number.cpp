@@ -1,3 +1,7 @@
+/*
+Smallest Positive missing number
+================================
+
 Given an array arr[] of size N, find the smallest positive number missing from the array.
 
  
@@ -33,10 +37,9 @@ Expected Auxiliary Space: O(1)
 Constraints:
 1 <= N <= 106
 -106 <= arr[i] <= 106
-  
-  /*=================================================================================================================*/
-  
-  
+
+*/
+   
   int findMissing(int arr[], int n) { 
         
         const int N = 1e6 + 2;
