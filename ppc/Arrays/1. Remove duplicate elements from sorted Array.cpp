@@ -1,3 +1,7 @@
+/*
+Remove duplicate elements from sorted Array
+===========================================
+
 Given a sorted array A of size N, delete all the duplicates elements from A.
 
 
@@ -29,10 +33,9 @@ Expected Auxiliary Space: O(1)
 Constraints:
 1 <= N <= 104
 1 <= A[i] <= 106
+
+*/
   
-  
-  
-  /*-------------------------------------------------------------------------*/
   
   int remove_duplicate(int arr[],int n)
     {
