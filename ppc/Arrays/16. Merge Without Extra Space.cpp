@@ -1,3 +1,7 @@
+/*
+ Merge Without Extra Space
+ =========================
+ 
 Given two sorted arrays arr1[] and arr2[] of sizes n and m in non-decreasing order. Merge them in sorted order without using any extra space. Modify arr1 so that it contains the first N elements and modify arr2 so that it contains the last M elements.
  
 
@@ -37,9 +41,8 @@ Expected Auxilliary Space: O(1)
 Constraints:
 1 <= n, m <= 5*104
 0 <= arr1i, arr2i <= 107
-  
-  
-  /*=========================================================================================================*/
+
+*/
   
   
   void merge(long long arr1[], long long arr2[], int n, int m) 
