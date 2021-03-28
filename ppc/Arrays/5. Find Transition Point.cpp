@@ -1,3 +1,7 @@
+/*
+Find Transition Point
+=====================
+
 Given a sorted array containing only 0s and 1s, find the transition point. 
 
 
@@ -30,9 +34,8 @@ Expected Auxiliary Space: O(1)
 Constraints:
 1 ≤ N ≤ 500000
 0 ≤ arr[i] ≤ 1
-  
-  /*============================================================================*/
-  
+
+*/ 
   
   int transitionPoint(int arr[], int n) {
     if(arr[0]==1)
