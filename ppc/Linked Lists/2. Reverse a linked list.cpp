@@ -49,3 +49,22 @@ class Solution
     }
     
 };
+
+/*===============================================================================*/
+
+class Solution
+{
+    public:
+    //Function to reverse a linked list.
+    struct Node* reverseList(struct Node *head)
+    {
+        if(head == NULL || head->next == NULL)
+            return head;
+        Node *rest_head = reverseList(head->next);
+        Node *rest_tail = head->next;
+        rest_tail->next = head;
+        head->next = NULL;
+        return rest_head;
+    }
+    
+};
